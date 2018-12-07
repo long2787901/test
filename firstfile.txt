@@ -1,0 +1,18 @@
+indows platform. Please see the LICENSING
+section of this document for licensing terms and conditions.
+
+
+CONTENTS
+--------
+
+cmake       Contains CMake configuration files shared by all targets.
+
+Debug       Contains libcef.dll, libcef.lib and other components required to
+            build and run the debug version of CEF-based applications. By
+            default these files should be placed in the same directory as the
+            executable and will be copied there as part of the build process.
+
+include     Contains all required CEF header files.
+
+libcef_dll  Contains the source code for the libcef_dll_wrapper static library
+            that all applications using the CEF C++ API must link against.
